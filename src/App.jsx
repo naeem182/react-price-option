@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className=' container mx-auto'>
+      <div className=' container mx-auto my-5'>
 
         <NavBar></NavBar>
         <DaisyNav ></DaisyNav>
