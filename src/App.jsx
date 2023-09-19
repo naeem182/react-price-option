@@ -1,5 +1,6 @@
 
 import './App.css'
+import ProgressLine from './Components/Chart/ProgressLine'
 import DaisyNav from './Components/Daisy_nav/DaisyNav'
 import NavBar from './Components/Daisy_nav/NavBar/NavBar'
 import PriceOptions from './Components/Price/PriceOptions'
@@ -15,8 +16,8 @@ function App() {
         <DaisyNav ></DaisyNav>
       </div>
       <PriceOptions></PriceOptions>
+      <ProgressLine></ProgressLine>
 
-      <h1 className='text-7xl'>Vite + React</h1>
     </>
   )
 }
